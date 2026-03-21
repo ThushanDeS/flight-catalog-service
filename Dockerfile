@@ -22,4 +22,4 @@ USER appuser
 EXPOSE 5001
 
 # Run the application
-CMD ["gunicorn", "--bind", "0.0.0.0:5001", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5001", "main:app"]
